@@ -71,14 +71,14 @@ Attraverso gli endpoint abbiamo la possibilità di leggere, inserire, cancellare
       "author_id": "Int"
     }
     ```
-- `/interactions`: permette di inserire un'interazione specificando il tipo di interazione, l'id dell'autore, l'id del post e il tipo di interazione (like o commento).
+- `/interactions`: permette di inserire un'interazione specificando il tipo di interazione (like o commento), l'id dell'autore, l'id del post e il contenuto dell'interazione (stringa o null in base alla natura dell'interazione).
   - Body:
     ```json
     {
       "type": "String",
       "author_id": "Int",
       "post_id": "Int",
-      "content": "String || null"  // la natura del content dipende se l'interazione è un commento o un like
+      "content": "String || null"
     }
     ```
 
@@ -111,7 +111,7 @@ Attraverso gli endpoint abbiamo la possibilità di leggere, inserire, cancellare
     {
       "type": "String",
       "author_id": "Int",
-      "content": "String || null"  // la natura del content dipende se l'interazione è un commento o un like
+      "content": "String || null"
     }
     ```
 
