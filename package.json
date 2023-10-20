@@ -1,0 +1,29 @@
+{
+  "name": "s2i-node.js-information",
+  "version": "1.0.0",
+  "description": "Un esercizio che prevede la creazione di REST API con Node.js ed Express",
+  "main": "./src/index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "npx nodemon ./src/index.js",
+    "test_users": "mocha ./test/usersController.test.js",
+    "test_posts": "mocha ./test/postsController.test.js",
+    "test_interactions": "mocha ./test/interactionsController.test.js",
+    "test_index": "mocha ./test/index.test.js"
+  },
+  "keywords": [],
+  "author": "Andrea Pacitto",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "mysql2": "^3.6.1"
+  },
+  "devDependencies": {
+    "chai": "^4.3.10",
+    "mocha": "^10.2.0",
+    "nodemon": "^3.0.1",
+    "sinon": "^16.1.3",
+    "sinon-chai": "^3.7.0"
+  }
+}
