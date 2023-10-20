@@ -78,7 +78,7 @@ Attraverso gli endpoint abbiamo la possibilità di leggere, inserire, cancellare
       "type": "String",
       "author_id": "Int",
       "post_id": "Int",
-      "content": "String" || null // la natura del content dipende se l'interazione è un commento o un like
+      "content": "String || null"  // la natura del content dipende se l'interazione è un commento o un like
     }
     ```
 
@@ -111,7 +111,7 @@ Attraverso gli endpoint abbiamo la possibilità di leggere, inserire, cancellare
     {
       "type": "String",
       "author_id": "Int",
-      "content": "String" || null  // la natura del content dipende se l'interazione è un commento o un like
+      "content": "String || null"  // la natura del content dipende se l'interazione è un commento o un like
     }
     ```
 
