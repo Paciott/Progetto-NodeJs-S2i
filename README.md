@@ -51,6 +51,9 @@ Attraverso gli endpoint abbiamo la possibilità di leggere, inserire, cancellare
 - `/posts/{post_id}?date={YYYY-MM-DD}`: ritorna il post associato all'id con aggregate le sue interazioni filtrate per data.
 - `/posts/{post_id}?city={city}`: ritorna il post associato all'id con aggregate le sue interazioni filtrate per luogo.
 - `/posts/{post_id}?date={YYYY-MM-DD}&city={city}`: ritorna il post associato all'id con aggregate le sue interazioni filtrate per data e luogo.
+- `/interactions/`: ROUTE DISABILITATA DI DEFAULT. Ritorna la lista di tutte le interazioni dei post presenti sull'app.
+- `/interactions/{post_id}`: ritorna la lista delle interazioni associate al post con l'id selezionato.
+
 
 ### `POST`
 
