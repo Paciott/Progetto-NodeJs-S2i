@@ -6,7 +6,7 @@ Il progetto prevede la creazione di REST API utilizzando Nodejs, nel caso specif
 
 Ho utilizzato MySQL come database, a cui mi sono interfacciato direttamente tramite la creazione di una pool che utilizza [mysql2](https://www.npmjs.com/package/mysql2) come client.
 
-Per quanto riguarda il testing, ho creato degli unit test capillari generando oggetti di mock e stub. Questi oggetti vengono utilizzati per simulare il comportamento delle funzioni e degli oggetti reali durante l'esecuzione dei test. Tutto ciò è stato fatot utilizzando librerie come [Mocha](https://mochajs.org/), [Chai](https://www.chaijs.com/) e [Sinon](https://sinonjs.org/).
+Per quanto riguarda il testing, ho creato degli unit test capillari generando oggetti di mock e stub. Questi oggetti vengono utilizzati per simulare il comportamento delle funzioni e degli oggetti reali durante l'esecuzione dei test. Tutto ciò è stato fatto utilizzando librerie come [Mocha](https://mochajs.org/), [Chai](https://www.chaijs.com/) e [Sinon](https://sinonjs.org/).
 
 ## Costruito con:
 
